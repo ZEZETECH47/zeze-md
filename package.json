@@ -90,10 +90,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/Blackie254/black-super-bot.git" 
+     "url": "git+https://github.com/humphreymbise/ZEZETECH-MD.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/Blackie254/black-super-bot/issues" 
+     "url": "https://github.com/humphreymbise/ZEZETECH-MD/issues" 
    }, 
-   "homepage": "https://github.com/Blackie254/black-super-bot#readme" 
+   "homepage": "https://github.com/humphreymbise/ZEZETECH-MD#readme" 
    }
