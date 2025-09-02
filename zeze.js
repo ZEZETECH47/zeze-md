@@ -107,7 +107,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
   : sender;
      const isAdmin = m.isGroup ? groupAdmin.includes(groupSender) : false;
      const Owner = DevRaven.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(groupSender)
-     const maindev = '254114283550';
+     const maindev = '255747397675';
      const maindev2 = maindev.split(",");
      const date = new Date()  
      const timestamp = speed(); 
@@ -170,7 +170,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
     if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `░𝙃𝙤𝙡𝙡𝙖...𝘽𝙇𝘼𝘾𝙆-𝙈𝘿 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀░\n\n` +
+    let notificationText = `░𝙃𝙤𝙡𝙡𝙖... ZEZE47-MD ANTIDELETE ░\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`;
 
     try {
@@ -224,7 +224,7 @@ contextInfo: {
           externalAdReply: {
           title: notificationText,
           body: `DELETED BY: ${deletedByFormatted}`,
-          thumbnailUrl: "https://files.catbox.moe/0ykpd2.jpeg",
+          thumbnailUrl: "https://i.imgur.com/VwloR6v.jpeg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -252,7 +252,7 @@ contextInfo: {
           externalAdReply: {
           title: notificationText,
           body: `DELETED BY: ${deletedByFormatted}`,
-          thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
+          thumbnailUrl: "https://i.imgur.com/VwloR6v.jpeg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -267,7 +267,7 @@ contextInfo: {
           externalAdReply: {
           title: notificationText,
           body: `DELETED BY: ${deletedByFormatted}`,
-          thumbnailUrl: "https://files.catbox.moe/0ykpd2.jpeg",
+          thumbnailUrl: "https://i.imgur.com/VwloR6v.jpeg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
