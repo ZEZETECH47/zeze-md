@@ -1,2 +1,10 @@
-# ZEZETECH-MD
-Helow🌠 it's nice to see you again. Fork 🍽️ and star ⭐ my repo ☺️
+# ZEZE47-MD BOT V4
+
+<img alt="faith logo"  src="https://i.imgur.com/VwloR6v.jpeg">
+  </a>
+</p>
+
+
+## 👇¥DEPLOY TO HEROKU¥
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/Queen_FAITH47-MD-v4)
