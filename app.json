@@ -15,8 +15,8 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/humphreymbise/ZEZETECH-MD#readme",
-  "repository": "https://github.com/Blackie254/black-super-bot.git",
+  "website": "https://github.com/ZEZETECH47/zeze-md-MD#readme",
+  "repository": "https://github.com/ZEZETECH47/zeze-md-bot.git",
   "logo": "https://files.catbox.moe/s5nuh3.jpg",
   "success_url": "/",
   "env": {
@@ -28,7 +28,7 @@
     },
     "DEV": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114283550,27849544670  ",
-      "value": "254114283550",
+      "value": "25547397675",
       "required": true
     },
     "ANTIDELETE": {
