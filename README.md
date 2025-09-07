@@ -7,4 +7,4 @@
 
 ## 👇¥DEPLOY TO HEROKU¥
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZETECH-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZEZETECH47/zeze-md)
