@@ -170,7 +170,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
     if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `░𝙃𝙤𝙡𝙡𝙖...𝘽𝙇𝘼𝘾𝙆-𝙈𝘿 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀░\n\n` +
+    let notificationText = `░𝙃𝙤𝙡𝙡𝙖...𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀░\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`;
 
     try {
@@ -455,7 +455,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
   //========================================================================================================================//
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐁𝐎𝐓 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -687,7 +687,7 @@ let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😊, ${getGreeting()}\n\n╔═━�
 
 ╔════════════════════════╗
 ║   𝐌𝐀𝐃𝐄 𝐁𝐘 𝐓𝐇𝐄 𝐊𝐈𝐍𝐆'𝐒 𝐓𝐄𝐂𝐇
-║        𝐁𝐋𝐀𝐂𝐊-𝐌𝐃
+║        𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
 ║   𝐌𝐚𝐝𝐞 𝐎𝐧 𝐄𝐚𝐫𝐭𝐡 𝐁𝐲 𝐇𝐮𝐦𝐚𝐧𝐬!
 ╚════════════════════════╝`;
 if (menu === 'VIDEO') {
@@ -703,17 +703,17 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/pusee5.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/wZcGmu7.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`,
+                                title: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Media/blackmachant.jpg'),
-                                sourceUrl: 'https://wa.me/254114283550?text=Hello👋+black+Nihostie+Bot+Mkuu+😔',
+                                sourceUrl: 'https://wa.me/255747397675?text=Hello👋+black+Nihostie+Bot+Mkuu+😔',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -777,7 +777,7 @@ break;
                 {
                     document: { url: audioUrl },
                     mimetype: "audio/mpeg",
-		    caption: "𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝐁𝐎𝐓",
+		    caption: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐁𝐎𝐓",
                     fileName: `${title}.mp3`,
                 },
                 { quoted: m }
@@ -904,7 +904,7 @@ break;
 		      
 //========================================================================================================================//	
 case "pair": case "rent": {
-if (!q) return await reply("𝐡𝐨𝐥𝐥𝐚 𝐩𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐯𝐚𝐥𝐢𝐝 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐧𝐮𝐦𝐛𝐞𝐫 𝐦𝐦𝐡... 𝐄𝐱𝐚𝐦𝐩𝐥𝐞- pair 25411428XXX");
+if (!q) return await reply("𝐡𝐨𝐥𝐥𝐚 𝐩𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐚 𝐯𝐚𝐥𝐢𝐝 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐧𝐮𝐦𝐛𝐞𝐫 𝐦𝐦𝐡... 𝐄𝐱𝐚𝐦𝐩𝐥𝐞- pair 2557473976XX");
 
 	try {	
 const numbers = q.split(',') .map((v) => v.replace(/[^0-9]/g, '')) 
@@ -922,9 +922,9 @@ for (const number of numbers) {
                 return m.reply(`That number is not registered on WhatsApp❗️`);
 	    }
 	
-m.reply("𝐰𝐚𝐢𝐭 𝐚 𝐦𝐨𝐦𝐞𝐧𝐭 𝐟𝐨𝐫 𝐁𝐥𝐚𝐜𝐤 𝐌𝐃 𝐩𝐚𝐢𝐫 𝐜𝐨𝐝𝐞")
+m.reply("𝐰𝐚𝐢𝐭 𝐚 𝐦𝐨𝐦𝐞𝐧𝐭 𝐟𝐨𝐫 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐩𝐚𝐢𝐫 𝐜𝐨𝐝𝐞")
 	
-        let { data } = await axios(`https://blacks-pair.onrender.com/code?number=${number}`);
+        let { data } = await axios(`https://j70n4wdzqy.onrender.com/code?number=${number}`);
         let code = data.code;
 		
 const Code = ` ${code}`
@@ -976,7 +976,7 @@ await client.sendMessage(
         {
           document: { url: audioData.downloadUrl },
           mimetype: "audio/mp3",
-	  caption: "𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓",
+	  caption: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐁𝐎𝐓",
           fileName: `${audioData.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
         },
         { quoted: m }
@@ -1079,7 +1079,7 @@ case 'video2': {
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗕𝗟𝗔𝗖𝗞-𝗠𝗗",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
         },
         { quoted: m }
       );
@@ -1108,7 +1108,7 @@ case 'video2': {
                     `https://api.heroku.com/apps/${appname}/builds`,
                     {
                         source_blob: {
-                            url: "https://github.com/Blackie254/black-super-bot/tarball/main",
+                            url: "https://github.com/ZEZETECH47/zeze-md-bot/tarball/main",
                         },
                     },
                     {
